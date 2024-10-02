@@ -21,9 +21,8 @@ const App = () => {
           <Route path="/order" element={<PlaceOrder />} />
           <Route path="*" element={<div>Page not found</div>} />
           </Routes>
-
-        <Footer />
       </div>
+      <Footer />
     </>
       
       

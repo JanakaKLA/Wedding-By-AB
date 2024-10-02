@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 const Navbar = ({setShowLogin}) => {
 
   const [menu,setMenu] = useState("Meetings");
+  
 
   return (
     <div className='navbar'>

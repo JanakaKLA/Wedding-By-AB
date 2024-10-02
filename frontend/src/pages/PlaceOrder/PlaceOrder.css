@@ -1,0 +1,70 @@
+.place-order{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 100px;
+}
+.place-order-left{
+    width: 100%;
+    max-width: max(30%,500px);
+}
+.place-order-left .title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: #996600;
+}
+.place-order-left input{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    outline-color: #996600;
+}
+
+.place-order-left .multi-fields{
+    display: flex;
+    gap: 10px;
+}
+
+
+.multi-fields select {
+    padding: 10px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+/* For Chrome, Safari, Edge, and Opera */
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+/* For Firefox */
+input[type="date"] {
+  -moz-appearance: textfield;
+}
+
+.place-order-bottom {
+    
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.place-order-bottom button{
+    border: none;
+    color: white;
+    background-color: #996600;
+    width: 200px;
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+

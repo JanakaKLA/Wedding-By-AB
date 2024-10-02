@@ -1,4 +1,4 @@
-.place-item{
+.place-item {
     width: 100%;
     margin: auto;
     border-radius: 15px;
@@ -7,48 +7,48 @@
     animation: fadeIn 1s;
 }
 
-.place-item-image{
+.place-item-image {
     width: 100%;
     border-radius: 15px 15px 0px 0px;
 }
 
-.place-item-info{
+.place-item-info {
     padding: 20px;
 }
 
-.place-item-name-rating{
+.place-item-name-rating {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.place-item-name-rating p{
+.place-item-name-rating p {
     font-size: 20px;
     font-weight: 500;
 }
 
-.place-item-name-rating img{
+.place-item-name-rating img {
     width: 70px;
 }
 
-.place-item-desc{
+.place-item-desc {
     color: #676767;
     font-size: 14px;
 }
 
-.place-item-price{
+.place-item-price {
     color: #996600;
     font-size: 22px;
     font-weight: 500;
     margin: 10px 0px;
 }
 
-.place-item-img-container{
+.place-item-img-container {
     position: relative;
 }
 
-.place-item-img-container .add{
+.place-item-img-container .add {
     width: 35px;
     position: absolute;
     bottom: 15px;
@@ -57,7 +57,7 @@
     border-radius: 50%;
 }
 
-.place-item-counter{
+.place-item-counter {
     position: absolute;
     bottom: 15px;
     right: 15px;
@@ -69,6 +69,46 @@
     background-color: aliceblue;
 }
 
-.place-item-counter img{
+.place-item-counter img {
     width: 30px;
 }
+
+/* Social Button Styles */
+.social-button {
+    background-color: #3b5998; /* Default to Facebook Blue */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+    font-size: 14px;
+    margin-top: 10px; /* Space between price and button */
+    margin-right: 10px; /* Add margin between buttons */
+}
+
+.fb-button {
+    background-color: #3b5998; /* Facebook Blue */
+}
+
+.fb-button:hover {
+    background-color: #2e4473; /* Darker shade on hover */
+}
+
+.ig-button {
+    background-color: #C13584; /* Instagram Purple */
+}
+
+.ig-button:hover {
+    background-color: #E1306C; /* Darker shade on hover */
+}
+/* Existing styles... */
+
+.button-container {
+    display: flex; /* Use flexbox for alignment */
+    gap: 10px; /* Space between the buttons */
+    margin-top: 10px; /* Add some space above the button container */
+    justify-content: center;
+}
+
+/* Existing button styles... */

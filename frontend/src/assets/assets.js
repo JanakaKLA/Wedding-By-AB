@@ -180,13 +180,17 @@ export const item_list = [
 ]
 
 export const place_list = [
+
+   
     {
         _id: "1",
         name: "Raja Jewellery",
         image: list_1,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Jewellery"
+        category: "Jewellery",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "2",
@@ -194,7 +198,9 @@ export const place_list = [
         image: list_2,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Jewellery"
+        category: "Jewellery",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "3",
@@ -202,7 +208,9 @@ export const place_list = [
         image: list_3,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Jewellery"
+        category: "Jewellery",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "4",
@@ -210,7 +218,9 @@ export const place_list = [
         image: list_4,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Jewellery"
+        category: "Jewellery",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "5",
@@ -218,7 +228,9 @@ export const place_list = [
         image: list_5,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Stationary"
+        category: "Stationary",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "6",
@@ -226,7 +238,9 @@ export const place_list = [
         image: list_6,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Bridal attire"
+        category: "Bridal attire",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "7",
@@ -234,7 +248,9 @@ export const place_list = [
         image: list_7,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Bridal attire"
+        category: "Bridal attire",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "8",
@@ -242,7 +258,9 @@ export const place_list = [
         image: list_8,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Bridal attire"
+        category: "Bridal attire",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "9",
@@ -250,7 +268,9 @@ export const place_list = [
         image: list_9,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Grooms attire"
+        category: "Grooms attire",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "10",
@@ -258,7 +278,9 @@ export const place_list = [
         image: list_10,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Grooms attire"
+        category: "Grooms attire",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "11",
@@ -266,7 +288,9 @@ export const place_list = [
         image: list_11,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Grooms attire"
+        category: "Grooms attire",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "14",
@@ -274,7 +298,9 @@ export const place_list = [
         image: list_14,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Grooms attire"
+        category: "Grooms attire",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "15",
@@ -282,7 +308,9 @@ export const place_list = [
         image: list_15,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Grooms attire"
+        category: "Grooms attire",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "12",
@@ -290,7 +318,9 @@ export const place_list = [
         image: list_12,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Grooms attire"
+        category: "Grooms attire",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "13",
@@ -298,7 +328,9 @@ export const place_list = [
         image: list_13,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Grooms attire"
+        category: "Grooms attire",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "16",
@@ -306,7 +338,9 @@ export const place_list = [
         image: list_16,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Shoes"
+        category: "Shoes",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "17",
@@ -314,7 +348,9 @@ export const place_list = [
         image: list_17,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Shoes"
+        category: "Shoes",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "18",
@@ -322,7 +358,9 @@ export const place_list = [
         image: list_18,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Shoes"
+        category: "Shoes",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "19",
@@ -330,7 +368,9 @@ export const place_list = [
         image: list_19,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Reception"
+        category: "Reception",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "20",
@@ -338,7 +378,9 @@ export const place_list = [
         image: list_20,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Reception"
+        category: "Reception",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "21",
@@ -346,7 +388,9 @@ export const place_list = [
         image: list_21,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Reception"
+        category: "Reception",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "22",
@@ -354,7 +398,9 @@ export const place_list = [
         image: list_22,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Reception"
+        category: "Reception",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "23",
@@ -362,7 +408,9 @@ export const place_list = [
         image: list_23,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Reception"
+        category: "Reception",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "24",
@@ -370,7 +418,9 @@ export const place_list = [
         image: list_24,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Reception"
+        category: "Reception",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "25",
@@ -378,7 +428,9 @@ export const place_list = [
         image: list_25,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Reception"
+        category: "Reception",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "26",
@@ -386,7 +438,9 @@ export const place_list = [
         image: list_26,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Flowers"
+        category: "Flowers",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "27",
@@ -394,7 +448,9 @@ export const place_list = [
         image: list_27,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Flowers"
+        category: "Flowers",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "28",
@@ -402,7 +458,9 @@ export const place_list = [
         image: list_28,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Flowers"
+        category: "Flowers",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "29",
@@ -410,7 +468,9 @@ export const place_list = [
         image: list_29,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Flowers"
+        category: "Flowers",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "30",
@@ -418,7 +478,9 @@ export const place_list = [
         image: list_30,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Cake"
+        category: "Cake",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "31",
@@ -426,7 +488,9 @@ export const place_list = [
         image: list_31,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Cake"
+        category: "Cake",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "32",
@@ -434,7 +498,9 @@ export const place_list = [
         image: list_32,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Cake"
+        category: "Cake",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "33",
@@ -442,7 +508,9 @@ export const place_list = [
         image: list_33,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Photography"
+        category: "Photography",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "34",
@@ -450,7 +518,9 @@ export const place_list = [
         image: list_34,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Photography"
+        category: "Photography",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "35",
@@ -458,7 +528,9 @@ export const place_list = [
         image: list_35,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Photography"
+        category: "Photography",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "36",
@@ -466,7 +538,9 @@ export const place_list = [
         image: list_36,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Photography"
+        category: "Photography",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "37",
@@ -474,7 +548,9 @@ export const place_list = [
         image: list_37,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Photography"
+        category: "Photography",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "38",
@@ -482,7 +558,9 @@ export const place_list = [
         image: list_38,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Videography"
+        category: "Videography",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "39",
@@ -490,7 +568,9 @@ export const place_list = [
         image: list_39,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Videography"
+        category: "Videography",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "40",
@@ -498,7 +578,9 @@ export const place_list = [
         image: list_40,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Videography"
+        category: "Videography",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "41",
@@ -506,7 +588,9 @@ export const place_list = [
         image: list_41,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Videography"
+        category: "Videography",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "42",
@@ -514,7 +598,9 @@ export const place_list = [
         image: list_42,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Videography"
+        category: "Videography",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "43",
@@ -522,7 +608,9 @@ export const place_list = [
         image: list_43,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Videography"
+        category: "Videography",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "44",
@@ -530,7 +618,9 @@ export const place_list = [
         image: list_44,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Bridal Dressing"
+        category: "Bridal Dressing",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "45",
@@ -538,7 +628,9 @@ export const place_list = [
         image: list_45,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Bridal Dressing"
+        category: "Bridal Dressing",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "46",
@@ -546,7 +638,9 @@ export const place_list = [
         image: list_46,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Bridal Dressing"
+        category: "Bridal Dressing",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "47",
@@ -554,7 +648,9 @@ export const place_list = [
         image: list_47,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Bridal Dressing"
+        category: "Bridal Dressing",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "48",
@@ -562,7 +658,9 @@ export const place_list = [
         image: list_48,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Entertainment"
+        category: "Entertainment",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "49",
@@ -570,7 +668,9 @@ export const place_list = [
         image: list_49,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Entertainment"
+        category: "Entertainment",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "50",
@@ -578,7 +678,9 @@ export const place_list = [
         image: list_50,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Entertainment"
+        category: "Entertainment",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "51",
@@ -586,7 +688,9 @@ export const place_list = [
         image: list_51,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Entertainment"
+        category: "Entertainment",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "52",
@@ -594,7 +698,9 @@ export const place_list = [
         image: list_52,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Entertainment"
+        category: "Entertainment",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "53",
@@ -602,7 +708,9 @@ export const place_list = [
         image: list_53,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Entertainment"
+        category: "Entertainment",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "54",
@@ -610,7 +718,9 @@ export const place_list = [
         image: list_54,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Rituals"
+        category: "Rituals",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "56",
@@ -618,7 +728,9 @@ export const place_list = [
         image: list_56,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Rituals"
+        category: "Rituals",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "55",
@@ -626,7 +738,9 @@ export const place_list = [
         image: list_55,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Rituals"
+        category: "Rituals",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "57",
@@ -634,7 +748,9 @@ export const place_list = [
         image: list_57,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Rituals"
+        category: "Rituals",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "58",
@@ -642,7 +758,9 @@ export const place_list = [
         image: list_58,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Sarees"
+        category: "Sarees",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "59",
@@ -650,7 +768,9 @@ export const place_list = [
         image: list_59,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Sarees"
+        category: "Sarees",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "60",
@@ -658,7 +778,9 @@ export const place_list = [
         image: list_60,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Sarees"
+        category: "Sarees",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
     {
         _id: "61",
@@ -666,6 +788,8 @@ export const place_list = [
         image: list_61,
         price: 12,
         description: "dsgdfhdfjdfngggdgmgm",
-        category: "Sarees"
+        category: "Sarees",
+        fbLink: "https://facebook.com/your-link-here", // Facebook link
+        instagramLink: "https://instagram.com/your-link-here" // Instagram link
     },
 ]
