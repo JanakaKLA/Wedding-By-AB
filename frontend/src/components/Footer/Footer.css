@@ -50,13 +50,48 @@
     border: none;
 }
 
-@media (max-width:750px) {
+
+/* Media Queries for smaller screens */
+@media (max-width: 750px) {
+    /* Stack the grid items vertically */
     .footer-content{
         display: flex;
         flex-direction: column;
         gap: 35px;
     }
+
+    /* Align text and adjust content padding */
+    .footer-content-left, .footer-content-right, .footer-content-center {
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Resize the logo for mobile */
+    .footer-content-left .Logo3 {
+        width: 200px;
+    }
+
+    /* Reduce padding on smaller screens */
+    .footer {
+        padding: 20px 5vw;
+    }
+
     .footer-copyright{
         text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    /* Further reduce the logo size for very small screens */
+    .footer-content-left .Logo3 {
+        width: 150px;
+    }
+
+    .footer {
+        padding: 20px 3vw;
+    }
+
+    .footer-social-icons img {
+        width: 30px;
     }
 }

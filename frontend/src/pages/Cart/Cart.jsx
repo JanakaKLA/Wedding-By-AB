@@ -1,9 +1,11 @@
 import React, { useContext } from "react";
 import "./Cart.css";
 import { StoreContext } from "../../Context/StoreContext";
+import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
   const { cartItems, place_list, removeFromCart } = useContext(StoreContext);
+  const navigate = useNavigate();
 
   return (
     <div>
@@ -30,6 +32,9 @@ const Cart = () => {
               );
             }
           })}
+        </div>
+        <div className="cart-bottom">
+          <button onClick={()=>navigate('/order')}>PROCEED TO CHECKOUT</button>
         </div>
       </div>
     </div>
