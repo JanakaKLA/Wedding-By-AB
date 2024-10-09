@@ -1,0 +1,105 @@
+.add {
+    width: 70%;
+    margin-left: max(5vw, 25px);
+    margin-top: 50px;
+    color: #6d6d6d;
+    font-size: 16px;
+}
+
+.add form {
+    gap: 20px;
+}
+
+/* Image Upload Section */
+.add-img-upload img {
+    width: 120px;
+}
+
+.add-img-upload label {
+    cursor: pointer;
+}
+
+.add-img-upload p {
+    margin-bottom: 10px;
+}
+
+/* Product Name and Description */
+.add-product-name, .add-product-description {
+    width: max(40%, 280px);
+}
+
+.add-product-name input, .add-product-description textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.add-product-description textarea {
+    resize: none;
+}
+
+/* Category Section */
+.add-category {
+    display: flex;
+    gap: 30px;
+}
+
+.add-category select, .add-category input {
+    max-width: 120px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Facebook and Instagram Links */
+.add-product-facebook, .add-product-instagram {
+    width: max(40%, 280px);
+    margin-top: 20px;
+}
+
+.add-product-facebook input, .add-product-instagram input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Add Button */
+.add-btn {
+    max-width: 120px;
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.add-btn:hover {
+    background-color: #333;
+}
+
+/* Success/Error Message */
+.message {
+    color: green;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .add {
+        width: 90%;
+    }
+
+    .add-product-name, .add-product-description, .add-product-facebook, .add-product-instagram {
+        width: 100%;
+    }
+
+    .add-category {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
