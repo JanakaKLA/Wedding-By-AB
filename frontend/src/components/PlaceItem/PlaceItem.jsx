@@ -134,12 +134,12 @@ import { assets } from '../../assets/assets';
 import { StoreContext } from '../../Context/StoreContext';
 
 const PlaceItem = ({ id, name, price, description, image, fbLink, instagramLink }) => {
-    const { cartItems, addToCart, removeFromCart } = useContext(StoreContext);
+    const { cartItems, addToCart, removeFromCart,url } = useContext(StoreContext);
 
     return (
         <div className='place-item'>
             <div className="place-item-img-container">
-                <img className='place-item-image' src={image} alt='' />
+                <img className='place-item-image' src={url+"/images/"+image} alt='' />
                 {!cartItems[id] ? (
                     <img className='add' onClick={() => addToCart(id)} src={assets.add_icon_white} alt='' />
                 ) : (
