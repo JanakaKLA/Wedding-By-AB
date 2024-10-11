@@ -3,14 +3,14 @@ import './List.css'
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const List = () => {
+const List = ({url}) => {
 
-  const url = "http://localhost:4000";
+
   const [list,setList] = useState([]);
 
   const fetctList = async () => {
     const response = await axios.get(`${url}/api/wedding/list`);
-    console.log(response.data);
+
     if(response.data.success) {
       setList(response.data.data);
     }
@@ -19,8 +19,17 @@ const List = () => {
     }
   }
 
-
-  
+  const removewedList = async(wedId) => {
+    const response = await axios.post(`${url}/api/wedding/remove`,{id:wedId});
+    await fetctList();
+    if (response.data.success) {
+      toast.success(response.data.message)
+    }
+    else{
+      toast.error("Error");
+    }
+  }
+   
 
   useEffect(()=>{
     fetctList();
@@ -47,7 +56,7 @@ const List = () => {
                 <p>{item.category}</p>
                 <p>{item.facebook}</p>
                 <p>{item.instagram}</p>
-                <p className='cursor'>x</p>
+                <p onClick={()=>removewedList(item._id)} className='cursor'>x</p>
             </div>
           )
         })}
