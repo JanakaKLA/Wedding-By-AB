@@ -133,7 +133,7 @@ import './PlaceItem.css';
 import { assets } from '../../assets/assets';
 import { StoreContext } from '../../Context/StoreContext';
 
-const PlaceItem = ({ id, name, price, description, image, fbLink, instagramLink }) => {
+const PlaceItem = ({ id, name, description, image, fbLink, instagramLink }) => {
     const { cartItems, addToCart, removeFromCart,url } = useContext(StoreContext);
 
     return (
