@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import LoginPopup from "./components/LoginPopup/LoginPopup";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import MyOrders from "./pages/MyOrders/MyOrders";
 
 
 const App = () => {
@@ -23,8 +24,8 @@ const App = () => {
           <Route exact path="/" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/order" element={<PlaceOrder />} />
+          <Route path="/myorders" element={<MyOrders/>}/>
           <Route path="*" element={<div>Page not found</div>} />
-          
           </Routes>
       </div>
       <Footer />
