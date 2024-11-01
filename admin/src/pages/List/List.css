@@ -1,26 +1,83 @@
-.list-table-format{
+
+.list {
+    width: 80%;
+    margin: 20px auto; /* Reduced margin to move the list higher */
+    color: #4a4a4a;
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Title Row Styling */
+.list-table-format.title {
+    background-color: #f3f3f3;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+/* Table Styling */
+.list-table {
+    margin-top: 10px; /* Reduced margin-top to raise the table */
+}
+
+.list-table-format {
     display: grid;
     grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 0.5fr;
     align-items: center;
-    gap: 10px;
-    padding: 12px 15px;
-    border: 1px solid #cacaca;
-    font-size: 13px;
+    gap: 15px;
+    padding: 12px 20px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
 }
 
-.list-table-format.title{
-    background-color: #f9f9f9;
+.list-table-format:hover {
+    background-color: #f8f8f8;
 }
-.list-table-format img{
+
+/* Image Styling */
+.list-table-format img {
     width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
 }
 
-@media (max-width:600px) {
-    .list-table-format{
-        grid-template-columns: 1fr 3fr 1fr;
-        gap: 15px;
+/* Action Column */
+.list-table-format .cursor {
+    color: #ff5c5c;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.list-table-format .cursor:hover {
+    color: #d9534f;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .list {
+        width: 90%;
     }
-    .list-table-format.title{
+
+    .list-table-format {
+        grid-template-columns: 1fr 2fr 1fr;
+        gap: 10px;
+        padding: 10px 15px;
+    }
+
+    /* Hide title row on smaller screens */
+    .list-table-format.title {
         display: none;
+    }
+
+    /* Show mobile-specific item labels */
+    .list-table-format p::before {
+        content: attr(data-label);
+        font-weight: bold;
+        color: #555;
+        margin-right: 8px;
     }
 }

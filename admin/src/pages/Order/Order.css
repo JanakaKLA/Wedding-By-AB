@@ -1,0 +1,155 @@
+/* .order-item{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr;
+    align-items: start;
+    gap: 30px;
+    border: 1px solid #996600;
+    padding: 20px;
+    margin: 30px 0px;
+    font-size: 14px;
+    color: #505050;
+}
+
+.order-item-wedding, .order-item-name{
+    font-weight: 600;
+}
+
+.order-item-name{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.order-item-address{
+    margin-bottom: 10px;
+}
+
+.order-item select{
+    background-color: #ffe8e4;
+    border: 1px solid #996600;
+    width: max(10vw,120px);
+    padding: 10px;
+    outline: none;
+}
+
+@media (max-width:1000px){
+    .order-item{
+        font-size: 12px;
+        grid-template-columns: 0.5fr 2f 1fr;
+        padding: 15px 8px;
+    }
+    .order-item select{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .order-item img{
+        width: 40px;
+    }
+} */
+
+/* Order page container styling */
+.order.add {
+    margin: 40px;
+}
+
+/* Order item card styling */
+.order-item {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr;
+    align-items: start;
+    gap: 20px;
+    border: 1px solid #996600;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #505050;
+    background-color: #f9f5f0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+/* Hover effect for order items */
+.order-item:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Styling for text elements within order item */
+.order-item-wedding,
+.order-item-name {
+    font-weight: 600;
+    color: #333333;
+}
+
+.order-item-name {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.order-item-address,
+.order-item-email,
+.order-item-phone,
+.order-item-date {
+    margin-bottom: 8px;
+    color: #666666;
+}
+
+/* Styling for the dropdown select */
+.order-item select {
+    background-color: #ffe8e4;
+    border: 1px solid #996600;
+    width: max(12vw, 140px);
+    padding: 8px;
+    outline: none;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-item select:hover {
+    background-color: #ffdbd1;
+}
+
+/* Image size adjustments */
+.order-item img {
+    width: 50px;
+}
+
+/* Media query for screens below 1000px */
+@media (max-width: 1000px) {
+    .order-item {
+        font-size: 12px;
+        grid-template-columns: 0.5fr 2fr 1fr;
+        padding: 15px 10px;
+    }
+
+    .order-item select {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .order-item img {
+        width: 40px;
+    }
+}
+
+/* Media query for screens below 600px - stack items vertically */
+@media (max-width: 600px) {
+    .order-item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+        gap: 10px;
+        font-size: 0.9rem;
+    }
+
+    .order-item img {
+        width: 35px;
+    }
+
+    .order-item select {
+        width: 100%;
+        font-size: 1rem;
+    }
+}
