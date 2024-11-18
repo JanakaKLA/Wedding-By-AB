@@ -9,7 +9,7 @@ import LoginPopup from "./components/LoginPopup/LoginPopup";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import MyOrders from "./pages/MyOrders/MyOrders";
-
+import AppointmentForm from "./pages/Appointment/Appointment"
 
 const App = () => {
   const [showLogin, setShowLogin] = useState(false);
@@ -26,6 +26,7 @@ const App = () => {
           <Route path="/order" element={<PlaceOrder />} />
           <Route path="/myorders" element={<MyOrders/>}/>
           <Route path="*" element={<div>Page not found</div>} />
+          <Route path="/appointment" element={<AppointmentForm/>}/>
           </Routes>
       </div>
       <Footer />

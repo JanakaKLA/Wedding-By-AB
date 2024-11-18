@@ -7,6 +7,7 @@ import StoreContext from '../../Context/StoreContext';
 const Navbar = ({setShowLogin}) => {
 
   const [menu,setMenu] = useState("Menu");
+  
 
   const {token,setToken} = useContext(StoreContext);
 
@@ -28,6 +29,9 @@ const Navbar = ({setShowLogin}) => {
         <a href='#app-Download' onClick={()=>setMenu("Mobile-App")} className={menu==="Mobile-App"?"active":""}>Mobile-App</a>
         <li onClick={()=>setMenu("Meetings")} className={menu==="Meetings"?"active":""}>Meetings</li>
         <a href='#footer' onClick={()=>setMenu("Contact")} className={menu==="Contact"?"active":""}>Contact</a>
+        <Link to="/appointment" onClick={() => setMenu("Appointment")} className={menu === "Appointment" ? "active" : ""}>
+      Appointment
+    </Link>
       </ul>
       
       <div className="navbar-right">
