@@ -66,16 +66,16 @@ const Add = ({url}) => {
           <input onChange={(e) => setImage(e.target.files[0])} type="file" id="image" hidden required />
         </div>
         <div className="add-product-name flex-col">
-          <p>Item name</p>
+          <p>Vendor name</p>
           <input onChange={onChangeHandler} value={data.name} type="text" name='name' placeholder='Type here' />
         </div>
         <div className="add-product-description flex-col">
-          <p>Item description</p>
+          <p>Vendor description</p>
           <textarea onChange={onChangeHandler} value={data.description} name="description" rows="6" placeholder='Write content here' required></textarea>
         </div>
         <div className="add-category">
           <div className="add-category flex-col">
-            <p>Item category</p>
+            <p>Vendor category</p>
             <select onChange={onChangeHandler} value={data.category} name="category">
               <option value="Jewellery">Jewellery</option>
               <option value="Stationary">Stationary</option>
